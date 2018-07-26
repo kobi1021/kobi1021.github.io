@@ -20,8 +20,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#/.storybook
-#/.vscode
-
-/storybook_temp
-/vscode_temp
+/.storybook
+/.vscode
