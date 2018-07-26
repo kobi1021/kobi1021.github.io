@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kobi1021/kobi1021.github.io.svg?branch=master)](https://travis-ci.org/kobi1021/kobi1021.github.io)
+[![Build Status](https://travis-ci.org/kobi1021/kobi1021.github.io.svg?branch=master)](https://travis-ci.org/kobi1021/kobi1021.github.io) [![Dependencies Status](https://david-dm.org/kobi1021/kobi1021.github.io.svg)](https://david-dm.org/kobi1021/kobi1021.github.io)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
