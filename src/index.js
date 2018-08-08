@@ -7,7 +7,11 @@ import WebFont from "webfontloader";
 
 WebFont.load({
   google: {
-    families: ["Montserrat", "sans-serif"]
+    families: [
+      "Montserrat:300,400,500,600,700",
+      "Nunito:300,400,500,600,700",
+      "sans-serif"
+    ]
   }
 });
 

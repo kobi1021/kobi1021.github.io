@@ -1,15 +1,44 @@
+@charset "utf-8";
+
+// Set your brand colors
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+$black: #000000;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $brown;
+
+// Update some of Bulma's component variables
+$body-background-color: transparent;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+@import "bulma/bulma";
+
+$fa-font-path: "./webfonts";
+
+@import "stylesheets/vendor/fontawesome/fontawesome.scss";
+@import "stylesheets/vendor/fontawesome/solid.scss";
+@import "stylesheets/vendor/fontawesome/brands.scss";
+
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
   min-height: 100%;
 }
 body {
-  padding: 20px;
-  background-image: linear-gradient(to bottom, #FFFFFF 30%, #88D9FF, #24206C, #222 80%);
-  color: #333;
-  background-size: 100% 400%;
-  background-position: 100% 0%;
-  transition: all 1s;
+  background-image: radial-gradient(
+    circle farthest-corner at 0.7% 1%,
+    rgba(215, 248, 247, 1) 0%,
+    rgba(102, 188, 239, 1) 100.2%
+  );
 }
