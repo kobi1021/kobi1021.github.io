@@ -79,6 +79,12 @@ class BackgroundScene extends Component {
     this.mount.appendChild(this.renderer.domElement);
     this.windowHalfX = this.width / 2;
     this.windowHalfY = this.height / 2;
+    this.mousePos = { x: this.windowHalfX, y: this.windowHalfY };
+
+    var tanFOV = Math.tan(((Math.PI / 180) * this.camera.fov) / 2);
+    this.tanFOV = tanFOV;
+    var windowHeight = window.innerHeight;
+    this.windowHeight = windowHeight;
 
     window.addEventListener("resize", this.handleResize);
     document.addEventListener("mousemove", this.handleMouseMove, false);
@@ -108,10 +114,15 @@ class BackgroundScene extends Component {
     this.windowHalfX = this.width / 2;
     this.windowHalfY = this.height / 2;
 
+    this.camera.aspect = this.width / this.height;
+    this.camera.fov =
+      (360 / Math.PI) *
+      Math.atan(this.tanFOV * (this.height / this.windowHeight));
+    this.camera.updateProjectionMatrix();
+    this.camera.lookAt(this.scene.position);
     this.renderer.setPixelRatio(window.devicePixelRatio);
     this.renderer.setSize(this.width, this.height);
-    this.camera.aspect = this.width / this.height;
-    this.camera.updateProjectionMatrix();
+    this.renderer.render(this.scene, this.camera);
   }
 
   handleMouseMove(event) {
@@ -239,9 +250,6 @@ class BackgroundScene extends Component {
 
     var bodyGeom = new THREE.CylinderGeometry(30, 80, 140, 4);
     var faceGeom = new THREE.BoxGeometry(80, 80, 60);
-    var mustacheGeom = new THREE.BoxGeometry(30, 2, 1);
-    mustacheGeom.applyMatrix(new THREE.Matrix4().makeTranslation(15, 0, 0));
-
     var earGeom = new THREE.BoxGeometry(30, 70, 20);
     var noseGeom = new THREE.BoxGeometry(20, 20, 20);
     var eyeGeom = new THREE.BoxGeometry(16, 16, 5);
