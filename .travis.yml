@@ -1,10 +1,15 @@
 language: node_js
 node_js:
   - "node"
+cache:
+  directories:
+    - node_modules
 after_success:
   - git config --global user.name "kobi1021"
   - git config --global user.email "[email protected]"
   - git remote rm origin
   - git remote add origin https://kobi1021:${GH_TOKEN}@github.com/kobi1021/kobi1021.github.io.git
   - npm run deploy
-script: "true"
+script:
+  - npm run build
+  - npm test
