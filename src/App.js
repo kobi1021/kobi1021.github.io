@@ -34,6 +34,11 @@ class App extends Component {
                   <i className="fab fa-lg fa-codepen" />
                 </span>
               </a>
+              <a href="https://keybase.io/kobi1021">
+                <span className="icon is-keybase">
+                  <i className="fab fa-lg fa-keybase" />
+                </span>
+              </a>
               <a href="https://www.instagram.com/kobi1021/">
                 <span className="icon is-medium">
                   <i className="fab fa-lg fa-instagram" />
