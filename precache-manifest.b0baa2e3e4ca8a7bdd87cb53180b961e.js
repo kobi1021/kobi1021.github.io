@@ -8,20 +8,20 @@ self.__precacheManifest = [
     "url": "/static/css/main.36998ab0.chunk.css"
   },
   {
-    "revision": "10fc2bed2ac4323b04a0",
-    "url": "/static/js/1.10fc2bed.chunk.js"
+    "revision": "74decc58df64e8d660d2",
+    "url": "/static/js/1.74decc58.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "b75b4bfe0d58faeced5006c785eaae23",
-    "url": "/static/media/fa-solid-900.b75b4bfe.woff2"
-  },
-  {
     "revision": "6814d0e8136d34e313623eb7129d538e",
     "url": "/static/media/fa-brands-400.6814d0e8.woff2"
+  },
+  {
+    "revision": "b75b4bfe0d58faeced5006c785eaae23",
+    "url": "/static/media/fa-solid-900.b75b4bfe.woff2"
   },
   {
     "revision": "2d0415fa29ea596b7a02c78eddeede20",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/fa-brands-400.83e6c29f.svg"
   },
   {
-    "revision": "7a0fb81f6c4347c5b76c535c7199eb17",
+    "revision": "3e63960f2797d2037f1a1cbc5a07725b",
     "url": "/index.html"
   }
 ];
