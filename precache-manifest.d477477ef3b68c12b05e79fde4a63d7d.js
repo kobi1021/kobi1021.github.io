@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "6814d0e8136d34e313623eb7129d538e",
-    "url": "/static/media/fa-brands-400.6814d0e8.woff2"
-  },
-  {
     "revision": "b75b4bfe0d58faeced5006c785eaae23",
     "url": "/static/media/fa-solid-900.b75b4bfe.woff2"
+  },
+  {
+    "revision": "6814d0e8136d34e313623eb7129d538e",
+    "url": "/static/media/fa-brands-400.6814d0e8.woff2"
   },
   {
     "revision": "2d0415fa29ea596b7a02c78eddeede20",
