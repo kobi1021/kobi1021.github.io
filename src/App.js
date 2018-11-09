@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import BackgroundScene from "./components/BackgroundScene/BackgroundScene";
+//import AWSCertified from "./components/AWSCertified/AWSCertified";
 import "./App.css";
 
 class App extends Component {
@@ -12,11 +13,14 @@ class App extends Component {
           <div className="container">
             <p className="title">Hello! I'm Biko Allen.</p>
             <p className="subtitle">
-              A web developer who has over 15 years experience in front-end and
-              back-end development along with 5 years in DevOps and AWS cloud
-              infrastructure. Aside from work, I have a passion for photography,
-              traveling, basketball, technology, video games and computer
-              graphics.
+              A full-stack web developer who loves DevOps and architecting cloud
+              infrastructure.{" "}
+              <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2018-11-02&ci=AWS00334004">
+                <strong>AWS Certified Cloud Practitioner</strong>
+              </a>{" "}
+              who is studying for more AWS certifications and learning
+              Kubernetes and Golang. Aside from work, I enjoy photography,
+              basketball, traveling, technology, video games and 3D animation.
             </p>
             <p>
               <a href="https://github.com/kobi1021">
