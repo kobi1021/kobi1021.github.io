@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.36998ab0.chunk.css",
-  "main.js": "/static/js/main.9bb494ec.chunk.js",
-  "main.js.map": "/static/js/main.9bb494ec.chunk.js.map",
+  "main.js": "/static/js/main.141a08f8.chunk.js",
+  "main.js.map": "/static/js/main.141a08f8.chunk.js.map",
   "static/js/1.74decc58.chunk.js": "/static/js/1.74decc58.chunk.js",
   "static/js/1.74decc58.chunk.js.map": "/static/js/1.74decc58.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -9,6 +9,6 @@
   "static/media/index.css": "/static/media/fa-brands-400.6814d0e8.woff2",
   "static/css/main.36998ab0.chunk.css.map": "/static/css/main.36998ab0.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.94ca5471646b5bf2e6de7cd7508f17b9.js": "/precache-manifest.94ca5471646b5bf2e6de7cd7508f17b9.js",
+  "precache-manifest.c4edc320c39f9d97a74256d523a1aea2.js": "/precache-manifest.c4edc320c39f9d97a74256d523a1aea2.js",
   "service-worker.js": "/service-worker.js"
 }

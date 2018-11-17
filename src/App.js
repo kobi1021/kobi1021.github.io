@@ -18,7 +18,11 @@ class App extends Component {
               <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2018-11-02&ci=AWS00334004">
                 <strong>AWS Certified Cloud Practitioner</strong>
               </a>{" "}
-              who is studying for more AWS certifications and learning
+              and{" "}
+              <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-11-15&ci=AWS00334004">
+                <strong>AWS Certified Solutions Architect Associate</strong>
+              </a>{" "}
+              who is studying for addiitonal certifications and learning
               Kubernetes and Golang. Aside from work, I enjoy photography,
               basketball, traveling, technology, video games and 3D animation.
             </p>
