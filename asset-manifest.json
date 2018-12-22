@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.36998ab0.chunk.css",
-  "main.js": "/static/js/main.141a08f8.chunk.js",
-  "main.js.map": "/static/js/main.141a08f8.chunk.js.map",
-  "static/js/1.74decc58.chunk.js": "/static/js/1.74decc58.chunk.js",
-  "static/js/1.74decc58.chunk.js.map": "/static/js/1.74decc58.chunk.js.map",
+  "main.css": "/static/css/main.12a1c35b.chunk.css",
+  "main.js": "/static/js/main.4d198d98.chunk.js",
+  "main.js.map": "/static/js/main.4d198d98.chunk.js.map",
+  "static/js/1.4645d610.chunk.js": "/static/js/1.4645d610.chunk.js",
+  "static/js/1.4645d610.chunk.js.map": "/static/js/1.4645d610.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/index.css": "/static/media/fa-brands-400.6814d0e8.woff2",
-  "static/css/main.36998ab0.chunk.css.map": "/static/css/main.36998ab0.chunk.css.map",
+  "static/css/main.12a1c35b.chunk.css.map": "/static/css/main.12a1c35b.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c4edc320c39f9d97a74256d523a1aea2.js": "/precache-manifest.c4edc320c39f9d97a74256d523a1aea2.js",
+  "precache-manifest.31143f8482e767a4347700946f950455.js": "/precache-manifest.31143f8482e767a4347700946f950455.js",
   "service-worker.js": "/service-worker.js"
 }
