@@ -17,10 +17,13 @@ class App extends Component {
               infrastructure.{" "}
               <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2018-11-02&ci=AWS00334004">
                 <strong>AWS Certified Cloud Practitioner</strong>
-              </a>{" "}
-              and{" "}
+              </a>{", "}
               <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-11-15&ci=AWS00334004">
                 <strong>AWS Certified Solutions Architect Associate</strong>
+              </a>{" "}
+              and 
+              <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2018-12-20&ci=AWS00334004">
+                <strong>AWS Certified Developer Associate</strong>
               </a>{" "}
               who is studying for addiitonal certifications and learning
               Kubernetes and Golang. Aside from work, I enjoy photography,
