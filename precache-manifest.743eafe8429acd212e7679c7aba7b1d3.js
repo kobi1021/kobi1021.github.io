@@ -40,20 +40,20 @@ self.__precacheManifest = [
     "url": "/static/media/fa-brands-400.fdf44bc4.ttf"
   },
   {
-    "revision": "132e9759d93e4eefd7cdde0d7a322991",
-    "url": "/static/media/fa-solid-900.132e9759.ttf"
-  },
-  {
     "revision": "ea363ed422723673917901680be9b37c",
     "url": "/static/media/fa-solid-900.ea363ed4.eot"
   },
   {
-    "revision": "de1d242d8acb26ec43c0d071fe78e72d",
-    "url": "/static/media/fa-solid-900.de1d242d.svg"
+    "revision": "132e9759d93e4eefd7cdde0d7a322991",
+    "url": "/static/media/fa-solid-900.132e9759.ttf"
   },
   {
     "revision": "83e6c29fb363b2f0ea6cc18fefff729c",
     "url": "/static/media/fa-brands-400.83e6c29f.svg"
+  },
+  {
+    "revision": "de1d242d8acb26ec43c0d071fe78e72d",
+    "url": "/static/media/fa-solid-900.de1d242d.svg"
   },
   {
     "revision": "b803d917e4dc5c4688b88ad7a36f6e33",
