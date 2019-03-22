@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/static/js/main.cad36b24.chunk.js"
   },
   {
-    "revision": "39e212935edd92309587",
-    "url": "/static/js/1.39e21293.chunk.js"
+    "revision": "c2f5ee70fec03e079038",
+    "url": "/static/js/1.c2f5ee70.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/fa-brands-400.83e6c29f.svg"
   },
   {
-    "revision": "b803d917e4dc5c4688b88ad7a36f6e33",
+    "revision": "e46a1800305f2bc16b9172a558eae1ea",
     "url": "/index.html"
   }
 ];
